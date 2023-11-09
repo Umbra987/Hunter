@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Woodcutter_hurt_0: -1524826333602053044
+      Woodcutter_hurt_1: 8688945405925867680
+      Woodcutter_hurt_2: -1325654643220618869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

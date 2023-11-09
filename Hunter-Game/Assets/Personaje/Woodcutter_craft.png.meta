@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Woodcutter_craft_0: 4932807400920474147
+      Woodcutter_craft_1: 4836528876706627601
+      Woodcutter_craft_2: 4355470966021388192
+      Woodcutter_craft_3: 1742203046243749740
+      Woodcutter_craft_4: 2521363648828379126
+      Woodcutter_craft_5: 6013706886609538485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

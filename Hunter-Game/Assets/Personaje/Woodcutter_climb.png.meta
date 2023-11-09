@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Woodcutter_climb_0: 9108351935915161140
+      Woodcutter_climb_1: 3493571269270773614
+      Woodcutter_climb_2: -4811742921800761913
+      Woodcutter_climb_3: 2662689427418894505
+      Woodcutter_climb_4: 8496272848959073280
+      Woodcutter_climb_5: -985906195080528499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

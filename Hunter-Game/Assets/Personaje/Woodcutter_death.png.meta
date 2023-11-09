@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Woodcutter_death_0: -5512572038756664377
+      Woodcutter_death_1: 7579540376592899474
+      Woodcutter_death_2: 8809732215974140799
+      Woodcutter_death_3: 3117451268202928608
+      Woodcutter_death_4: 3370160059393513913
+      Woodcutter_death_5: -7719539525251913515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
