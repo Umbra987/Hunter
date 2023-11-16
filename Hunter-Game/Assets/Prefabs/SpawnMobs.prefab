@@ -115,8 +115,10 @@ MonoBehaviour:
   - {fileID: 1730168680377423881}
   - {fileID: 6933233071501287905}
   - {fileID: 8096246989697404542}
-  mobs: []
+  mobs:
+  - {fileID: 0}
   tiempoSpawn: 0
+  maxMobs: 0
 --- !u!1 &6126360475134847221
 GameObject:
   m_ObjectHideFlags: 0
