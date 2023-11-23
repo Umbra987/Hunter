@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowIA : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Transform player;
+    private Transform player;
     [SerializeField] private float followDistance = 5f;
     [SerializeField] private float stoppingDistance = 2f;
 
@@ -16,6 +16,7 @@ public class FollowIA : MonoBehaviour
     {
         // Obtén el componente Animator del objeto
         animator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()

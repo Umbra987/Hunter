@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  player: {fileID: 8312988914820856372, guid: 275df0e104658ad4098a7ebeb4bd9a1c, type: 3}
+  player: {fileID: 0}
   followDistance: 2.5
   stoppingDistance: 0.1
 --- !u!50 &6493494810172877887
