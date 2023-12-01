@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scream_0: -698445991872946889
+      Scream_1: -7753230735383741357
+      Scream_2: 1643304270273261513
+      Scream_3: -7271889780145406184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

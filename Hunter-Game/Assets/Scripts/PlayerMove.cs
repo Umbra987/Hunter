@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Windows;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -75,9 +72,9 @@ public class PlayerMove : MonoBehaviour
 
         if (UnityEngine.Input.GetKey("space") && CheckGround.isGrounded)
         {
+
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
 
-           
         }
 
         if(CheckGround.isGrounded==false)
