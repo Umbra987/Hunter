@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 522569596919850278}
   m_Layer: 8
   m_Name: Fish1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

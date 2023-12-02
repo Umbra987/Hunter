@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4687901269778518776}
   - component: {fileID: 8337923055774353798}
   - component: {fileID: 8713129453891951461}
+  - component: {fileID: 2705409755714386099}
   m_Layer: 0
   m_Name: Posesion
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +155,19 @@ MonoBehaviour:
   queEsSuelo:
     serializedVersion: 2
     m_Bits: 128
+--- !u!114 &2705409755714386099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3575942172943070536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c231ced212fc54694b3fa6016b5548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20
 --- !u!1 &4343806422227715739
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +178,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1418830036569911622}
   - component: {fileID: 6356389159821569664}
-  - component: {fileID: 8321319288238236069}
   m_Layer: 0
   m_Name: EnemyDamage
   m_TagString: Untagged
@@ -233,15 +246,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.13199848, y: 0.32463798}
   m_EdgeRadius: 0
---- !u!114 &8321319288238236069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4343806422227715739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cb4a07937ab21a48adcdcb4de0dc367, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

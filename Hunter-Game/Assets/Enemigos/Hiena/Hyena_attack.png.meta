@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hyena_attack_0: -6677945977672588449
+      Hyena_attack_1: -8883239317587252966
+      Hyena_attack_2: 4403830532000470531
+      Hyena_attack_3: -202269839382625351
+      Hyena_attack_4: -5313392916397558427
+      Hyena_attack_5: -3335007645522571340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

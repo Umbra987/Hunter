@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scorpio_attack_0: -7649259578791124886
+      Scorpio_attack_1: -964720489157122981
+      Scorpio_attack_2: -1752216250252283856
+      Scorpio_attack_3: 1187873154689104724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

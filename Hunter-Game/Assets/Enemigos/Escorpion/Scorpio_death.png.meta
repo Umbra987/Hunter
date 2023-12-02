@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Scorpio_death_0: -3061324769901803152
+      Scorpio_death_1: 6895643262564913101
+      Scorpio_death_2: 7747824380975604914
+      Scorpio_death_3: 1046704159263176429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

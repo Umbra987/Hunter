@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mummy_attack_0: -3894874152493566543
+      Mummy_attack_1: 601303120412384226
+      Mummy_attack_2: 3415376048139568515
+      Mummy_attack_3: 1869135695181477425
+      Mummy_attack_4: -1249056521801862804
+      Mummy_attack_5: 6605269743837624653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

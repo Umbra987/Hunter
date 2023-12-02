@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3147393155236075260}
   - component: {fileID: 4135248610128446778}
-  - component: {fileID: 6161285693553759371}
   m_Layer: 0
   m_Name: EnemyDamage
   m_TagString: Untagged
@@ -79,18 +78,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.13199848, y: 0.31283504}
   m_EdgeRadius: 0
---- !u!114 &6161285693553759371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626000589667096789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cb4a07937ab21a48adcdcb4de0dc367, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3858842321781551793
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +120,7 @@ GameObject:
   - component: {fileID: 8003260724594561499}
   m_Layer: 0
   m_Name: GuardiaTriton
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

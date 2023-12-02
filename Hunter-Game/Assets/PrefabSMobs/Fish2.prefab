@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3742040606523169612}
   - component: {fileID: 2899915851916740800}
   - component: {fileID: 4769377984592629027}
+  - component: {fileID: -147913931981765454}
   m_Layer: 8
   m_Name: Fish2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,3 +154,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &-147913931981765454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570303089703003065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c231ced212fc54694b3fa6016b5548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20

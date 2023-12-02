@@ -440,7 +440,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Deceased_death_0: -4346776898643970542
+      Deceased_death_1: 3698431290997186405
+      Deceased_death_10: -6047182819475003702
+      Deceased_death_11: -19715136718866091
+      Deceased_death_12: 8076056423135206660
+      Deceased_death_13: 8946951823195827818
+      Deceased_death_2: -5588643173651465904
+      Deceased_death_3: 8649425513662549851
+      Deceased_death_4: -8256075848436699265
+      Deceased_death_5: -5852893284841202969
+      Deceased_death_6: -7475749174747183434
+      Deceased_death_7: 5426533283122585357
+      Deceased_death_8: 8141234942278567976
+      Deceased_death_9: -5294443538549135857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

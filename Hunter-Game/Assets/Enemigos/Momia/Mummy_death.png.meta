@@ -368,7 +368,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mummy_death_0: 1778666467535674539
+      Mummy_death_1: 3965122173503661418
+      Mummy_death_10: 8081860076336849088
+      Mummy_death_2: 4064532604003236335
+      Mummy_death_3: 4969488975082120324
+      Mummy_death_4: -6099414417010785682
+      Mummy_death_5: 4425924687891590800
+      Mummy_death_6: -3368488271091519512
+      Mummy_death_7: -8901156184336717253
+      Mummy_death_8: -6250478779991000713
+      Mummy_death_9: -5656522759552010750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

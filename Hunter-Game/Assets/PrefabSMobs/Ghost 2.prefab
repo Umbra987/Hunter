@@ -96,11 +96,11 @@ GameObject:
   - component: {fileID: 5652433606482285745}
   - component: {fileID: 455707692281918637}
   - component: {fileID: 1104469797134570806}
-  - component: {fileID: 8556943958249843555}
   - component: {fileID: -865482308838946503}
+  - component: {fileID: -3083451265661202877}
   m_Layer: 0
   m_Name: Ghost 2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,18 +241,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.28, y: 0.71957636}
   m_EdgeRadius: 0
---- !u!114 &8556943958249843555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5500977535053651336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cb4a07937ab21a48adcdcb4de0dc367, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-865482308838946503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,3 +256,16 @@ MonoBehaviour:
   speed: 1
   followDistance: 2
   stoppingDistance: 0.1
+--- !u!114 &-3083451265661202877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5500977535053651336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c231ced212fc54694b3fa6016b5548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20
