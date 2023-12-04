@@ -32,9 +32,18 @@ public class Attack : MonoBehaviour
         foreach (Collider2D colisionador in objetos)
         {
             if (colisionador.CompareTag("Enemy"))
-                colisionador.transform.GetComponent<Enemigo>().TomarDaño(dañoGolpe);
+            {
+                Enemigo enemigoComponent = colisionador.transform.GetComponent<Enemigo>();
+
+                
+                if (enemigoComponent != null)
+                {
+                    enemigoComponent.TomarDaño(dañoGolpe);
+                }
+            }
         }
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

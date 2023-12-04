@@ -19,12 +19,6 @@ public class Respawn : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     
     public void ReachedCheckPoint(float x, float y)
     {
@@ -37,7 +31,6 @@ public class Respawn : MonoBehaviour
     {
         if (collision.transform.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<SpriteRenderer>().enabled = false;
             vida.vidaactual -= 20;
             animator.SetTrigger("Hurt");
 

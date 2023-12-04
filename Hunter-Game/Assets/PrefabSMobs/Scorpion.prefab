@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 7543921365529890506}
   - component: {fileID: 7993572489556281186}
   - component: {fileID: 3864286768658180599}
+  - component: {fileID: 920715115761284635}
   m_Layer: 0
   m_Name: Scorpio
   m_TagString: Untagged
@@ -268,6 +269,52 @@ MonoBehaviour:
   - {fileID: 3377736958271845273}
   - {fileID: 5857186059640720059}
   startWaitTime: 2
+--- !u!61 &920715115761284635
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6771977064280899623}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.24}
+    newSize: {x: 0.34, y: 0.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.24}
+  m_EdgeRadius: 0
 --- !u!1 &7394657064800336114
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9169008740688521230}
+  - component: {fileID: 2479003723688731347}
   m_Layer: 0
   m_Name: Scorpion
   m_TagString: Enemy
@@ -302,3 +350,16 @@ Transform:
   - {fileID: 5857186059640720059}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2479003723688731347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394657064800336114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c231ced212fc54694b3fa6016b5548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0

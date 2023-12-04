@@ -17,5 +17,8 @@ public class Creditos : MonoBehaviour
 
     }
 
-   
+   public void WaitToend()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

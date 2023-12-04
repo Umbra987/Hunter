@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Snake : MonoBehaviour
@@ -12,32 +11,24 @@ public class Snake : MonoBehaviour
     public float startWaitTime = 2;
     private int i = 0;
     private Vector2 actualPos;
-    
 
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
         waitTime = startWaitTime;
-    
+        StartCoroutine(CheckEnemyMoving()); 
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
-        StartCoroutine(CheckEnemyMoving());
+        transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
 
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position,speed * Time.deltaTime );
-
-        if ( Vector2.Distance(transform.position, moveSpots[i].transform.position)<0.1f) 
-        { 
-         
-           if (waitTime <= 0)
+        if (Vector2.Distance(transform.position, moveSpots[i].transform.position) < 0.1f)
+        {
+            if (waitTime <= 0)
             {
-
-                if (moveSpots[i]!= moveSpots[moveSpots.Length - 1])
+                if (moveSpots[i] != moveSpots[moveSpots.Length - 1])
                 {
                     i++;
                 }
@@ -48,37 +39,40 @@ public class Snake : MonoBehaviour
 
                 waitTime = startWaitTime;
             }
-           else
+            else
             {
                 waitTime -= Time.deltaTime;
             }
-        
-        
-        
         }
     }
 
     IEnumerator CheckEnemyMoving()
     {
-        actualPos = transform.position;
-
-        yield return new WaitForSeconds(0.5f);
-
-        if (transform.position.x>actualPos.x)
+        while (true) 
         {
-            spriteRenderer.flipX= true;
-            animator.SetBool("idl", false);
-        }
-        else if (transform.position.x < actualPos.x)
-        {
-            spriteRenderer.flipX = false;
-            animator.SetBool("idl", false);
+            actualPos = transform.position;
 
-        }
-        else if (transform.position.x==actualPos.x)
-        {
-            animator.SetBool("idl", true);
+            yield return new WaitForSeconds(0.5f);
 
+            
+            if (animator != null)
+            {
+                if (transform.position.x > actualPos.x)
+                {
+                    spriteRenderer.flipX = true;
+                    animator.SetBool("idl", false);
+                }
+                else if (transform.position.x < actualPos.x)
+                {
+                    spriteRenderer.flipX = false;
+                    animator.SetBool("idl", false);
+                }
+                else if (transform.position.x == actualPos.x)
+                {
+                    animator.SetBool("idl", true);
+                }
+            }
         }
     }
+
 }
